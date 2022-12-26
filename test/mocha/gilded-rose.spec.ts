@@ -2,9 +2,9 @@ import { expect } from 'chai';
 import { Item, GildedRose } from '@/gilded-rose';
 
 describe('Gilded Rose', () => {
-  it('should foo', () => {
-    const gildedRose = new GildedRose([new Item('foo', 0, 0)]);
+  it('should decrement quality by one for normal items', () => {
+    const gildedRose = new GildedRose([new Item('foo', 4, 4)]);
     const items = gildedRose.updateQuality();
-    expect(items[0].name).to.equal('fixme');
+    expect(items[0].quality).to.equal(3);
   });
 });
