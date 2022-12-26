@@ -1,6 +1,7 @@
 # Gilded Rose
 
 This is the Gilded Rose kata in TypeScript.
+I've cloned it from https://github.com/CodingIsCaring/kata-gilded-rose so thanks to https://github.com/CodingIsCaring
 
 ## Getting started
 
