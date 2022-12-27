@@ -24,9 +24,9 @@ npx ts-node test/golden-master-text-test.ts 10
 
 ## Running tests
 To run all tests         ### Mocha way
-```sh                    ```sh
+```sh
 npm run test:jest        npm run test:mocha
-```                      ```
+```
 
 # Especificaciones de la Rosa Dorada (Gilded Rose)
 
