@@ -17,11 +17,6 @@ _You may need to install `ts-node`_
 npx ts-node test/golden-master-text-test.ts
 ```
 
-Or with number of days as args:
-```sh
-npx ts-node test/golden-master-text-test.ts 10
-```
-
 ## Running tests
 To run all tests         ### Mocha way
 ```sh
