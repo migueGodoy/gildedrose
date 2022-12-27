@@ -1,4 +1,5 @@
-import { Item, GildedRose } from '@/gilded-rose';
+import { GildedRose } from '@/gilded-rose';
+import { Item } from "@/Item";
 
 describe('Gilded Rose', () => {
   it('should decrement quality by one for normal items', () => {
