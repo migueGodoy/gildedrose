@@ -1,4 +1,4 @@
-export class Item {
+export class Item {  
   name: string;
   sellIn: number;
   quality: number;
@@ -8,4 +8,10 @@ export class Item {
     this.sellIn = sellIn;
     this.quality = quality;
   }
+
+  updateQuality(): void {
+    this.quality--;
+    this.sellIn--;
+  };
+
 }

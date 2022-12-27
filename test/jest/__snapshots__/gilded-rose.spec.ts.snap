@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gilded Rose should do a snapshot for 2 days 1`] = `
+Array [
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 18,
+    "sellIn": 8,
+  },
+  AgedBrieItem {
+    "name": "Aged Brie",
+    "quality": 2,
+    "sellIn": 0,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": 5,
+    "sellIn": 3,
+  },
+  SulfurasItem {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  SulfurasItem {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  ConcertItem {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 22,
+    "sellIn": 13,
+  },
+  ConcertItem {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 8,
+  },
+  ConcertItem {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 3,
+  },
+  ConjuredItem {
+    "name": "Conjured Mana Cake",
+    "quality": 2,
+    "sellIn": 1,
+  },
+]
+`;
+
+exports[`Gilded Rose should do a snapshot for 10 days 1`] = `
+Array [
+  Item {
+    "name": "+5 Dexterity Vest",
+    "quality": 10,
+    "sellIn": 0,
+  },
+  AgedBrieItem {
+    "name": "Aged Brie",
+    "quality": 18,
+    "sellIn": -8,
+  },
+  Item {
+    "name": "Elixir of the Mongoose",
+    "quality": -3,
+    "sellIn": -5,
+  },
+  SulfurasItem {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": 0,
+  },
+  SulfurasItem {
+    "name": "Sulfuras, Hand of Ragnaros",
+    "quality": 80,
+    "sellIn": -1,
+  },
+  ConcertItem {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 35,
+    "sellIn": 5,
+  },
+  ConcertItem {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 50,
+    "sellIn": 0,
+  },
+  ConcertItem {
+    "name": "Backstage passes to a TAFKAL80ETC concert",
+    "quality": 0,
+    "sellIn": -5,
+  },
+  ConjuredItem {
+    "name": "Conjured Mana Cake",
+    "quality": -14,
+    "sellIn": -7,
+  },
+]
+`;
